@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/App.css';
 import LibraryContainer from './components/LibraryContainer';
-import { HashRouter as Router } from "react-router-dom"
+import {BrowserRouter} from "react-router-dom"
 
 ReactDOM.render(
   <React.StrictMode>
     <div className='outer-container'>
       <div className='inner-container'>
-        <Router>
+        <BrowserRouter basename='/library'>
           <LibraryContainer />
-        </Router>
+        </BrowserRouter>
       </div>
     </div>
   </React.StrictMode>,
