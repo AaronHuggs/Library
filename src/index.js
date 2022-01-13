@@ -8,7 +8,7 @@ ReactDOM.render(
   <React.StrictMode>
     <div className='outer-container'>
       <div className='inner-container'>
-        <Router basename={process.env.PUBLIC_URL}>
+        <Router basename='/library'>
           <LibraryContainer />
         </Router>
       </div>
