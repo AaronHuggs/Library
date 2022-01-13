@@ -1,4 +1,5 @@
 import ResultItem from './ResultItem'
+import {GrClear} from 'react-icons/gr'
 
 const ResultsContainer = props => {
 
@@ -7,7 +8,27 @@ const ResultsContainer = props => {
             <h3>Search for books to add to your bookshelf</h3>
         </div> :
         <div>
-            <h2>Results</h2>
+            
+            <h2>
+                Results
+                <button 
+                    className='results-clear' 
+                    style={{
+                        width: '40px', 
+                        height: '40px',
+                        marginLeft: '10px',
+                        background: 'none',
+                        borderRadius: '50%',
+                        border: 'none',
+                        cursor: 'pointer',
+                        fontSize: '18px'
+                    }}
+                    onClick={() => {props.clearBookResults()}}
+                >
+                    <GrClear />
+                </button>
+            </h2>
+            
             <ul className='results-container'>
                 {props.results.map(result => (
                     <ResultItem 

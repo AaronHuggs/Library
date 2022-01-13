@@ -106,7 +106,7 @@
     grid-area: author;
     justify-self: start;
     padding-top: 5px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-bottom: 0px;
     margin-left: 10px;
 
@@ -145,12 +145,18 @@
     width: 600px;
     height: 400px;
     overflow-y: auto;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 2%;
+    text-align: left;
 }
 
 .bookshelf-container {
     width: 900px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
+    text-align: left;
 }
 
 ul {
@@ -181,3 +187,6 @@ ul {
     border: 3px solid rgb(211, 211, 211);
   }
 
+  *::-webkit-scrollbar-button {
+    height: 12px;
+  }

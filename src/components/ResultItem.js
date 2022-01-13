@@ -3,7 +3,7 @@ import {AiOutlinePlusCircle} from 'react-icons/ai'
 import {AiOutlineCheckCircle} from 'react-icons/ai'
 
 const ResultItem = props => {
-    const {id, bookTitle, bookAuthor, bookImage, bookLink} = props.result
+    const {bookTitle, bookAuthor, bookImage, bookLink} = props.result
     return (
         <div className='item-container'>
             <button onClick={() => props.addToBookshelf(bookLink)} className='item-button'>

@@ -5,7 +5,11 @@ import LibraryContainer from './components/LibraryContainer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <LibraryContainer />
+    <div className='outer-container'>
+      <div className='inner-container'>
+        <LibraryContainer />
+      </div>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );

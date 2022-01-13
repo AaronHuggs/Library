@@ -117,6 +117,7 @@ const LibraryContainer = () => {
             />
             <ResultsContainer 
                 results={results} 
+                clearBookResults={clearBookResults}
                 addToBookshelf={addToBookshelf}
                 bookOnShelf={bookOnShelf}
             />
