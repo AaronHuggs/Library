@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/App.css';
+import './styles/Mobile.css';
 import LibraryContainer from './components/LibraryContainer';
 //router
 import {BrowserRouter, Routes, Route} from 'react-router-dom'

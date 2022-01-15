@@ -13,16 +13,6 @@ const ResultsContainer = props => {
                 Results
                 <button 
                     className='results-clear' 
-                    style={{
-                        width: '40px', 
-                        height: '40px',
-                        marginLeft: '10px',
-                        background: 'none',
-                        borderRadius: '50%',
-                        border: 'none',
-                        cursor: 'pointer',
-                        fontSize: '18px'
-                    }}
                     onClick={() => {props.clearBookResults()}}
                 >
                     <GrClear />

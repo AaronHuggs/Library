@@ -53,7 +53,7 @@ const SearchContainer = props => {
                 name='title'
                 onChange={onChange}
             />
-            <button className='input-submit' style={{width: '60px', height: '25px'}}>
+            <button className='input-submit'>
                 <IoSearchSharp />
             </button>
         </form>
