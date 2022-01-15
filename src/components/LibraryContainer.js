@@ -32,7 +32,7 @@ const LibraryContainer = () => {
         for(let i=0;i<response.items.length;i++) {
             let title = response.items[i].volumeInfo.title;
             //Limit title length
-            let titleLength = 100;
+            let titleLength = 40;
             (title.length > titleLength) ? (
                 title = title.substring(0, titleLength - 3) + '...' ) :
                 title = title.substring(0, titleLength);

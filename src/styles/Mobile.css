@@ -1,6 +1,13 @@
+:root {
+  --backgroundColorMobile: #ececec;
+  --headerColor: #142d4c;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 600px) {
     body {
       font-family: 'Roboto',sans-serif;
+      background-color: var(--backgroundColorMobile);
+      color: var(--headerColor)
     }
     /*Header*/
     h1 {
@@ -58,6 +65,8 @@
         text-align: left;
         padding: 0;
         overflow-x:hidden;
+        background-color: white;
+        color: black;
     }
 
     /*ResultItem*/
@@ -130,6 +139,7 @@
         width: 90%;
         text-align: right;
         margin-top: 0;
+        padding-right: 10px;
     }
 
     .author {
@@ -175,6 +185,8 @@
         justify-items: center;
         align-items: start;
         margin-bottom: 10px;
+        background-color: white;
+        color: black;
     }
 
     .bookshelf-item-container .title {
