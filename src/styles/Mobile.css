@@ -64,15 +64,23 @@
     .item-container {
         display: grid;
         grid-template-columns: 1fr 1fr 4fr;
-        grid-template-rows: 20px 40px 20px;
+        grid-template-rows: 3vh 6vh 3vh;
         column-gap: 5px;
-        row-gap: 10px;
+        row-gap: 20px;
         grid-template-areas: 
         ". image title"
         "button image author"
         ". image .";
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .item-gray {
+        background-color: gray;
+    }
+
+    .item-white {
+        background-color: rgb(212, 212, 212);
     }
 
     .item-image {
@@ -118,10 +126,10 @@
         font-size: large;
         grid-area: title;
         justify-self:center;
-        margin-top: 0;
         padding-bottom: 5px;
         width: 90%;
         text-align: right;
+        margin-top: 0;
     }
 
     .author {
@@ -129,9 +137,10 @@
         grid-area: author;
         justify-self: center;
         padding-right: 20px;
-        padding-top: 15px;
+        padding-top: 25px;
         width: 90%;
-        text-align: right;
+        text-align: right;  
+        margin-top: 0;
     }
 
     /*BookshelfContainer*/
@@ -174,6 +183,7 @@
         grid-area: title;
         justify-self:center;
         text-align:center;
+        margin-top: 0;
     }
 
     .bookshelf-item-container .author {

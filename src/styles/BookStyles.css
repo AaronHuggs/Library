@@ -113,6 +113,7 @@
         grid-area: title;
         justify-self:start;
         margin: 0 10px;
+        inline-size: 180px;
     }
 
     .bookshelf-item-container .author {
@@ -155,7 +156,8 @@
     /*--------------------------------*/
 
     .results-container {
-        width: 600px;
+        width: 80%;
+        min-width: 600px;
         height: 400px;
         overflow-y: auto;
         margin: auto;
@@ -165,11 +167,11 @@
     }
 
     .bookshelf-container {
-        width: 900px;
         display: flex;
         flex-wrap: wrap;
         margin: auto;
         text-align: left;
+        justify-content: center;
     }
 
     ul {
