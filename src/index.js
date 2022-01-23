@@ -21,7 +21,6 @@ ReactDOM.render(
       <div className='github'>
         <a href='https://github.com/AaronHuggs' target='_blank' rel="noreferrer">
           <BsGithub></BsGithub>
-          <span> @AaronHuggs</span>
         </a>
         
         
