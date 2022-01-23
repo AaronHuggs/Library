@@ -11,15 +11,20 @@
     }
     /*Header*/
     h1 {
-        text-align: center;
+        text-align: left;
+        padding-left: 5%;
     }
     /*SearchContainer*/
+    .form-container {
+        text-align: left;
+        padding-left: 5%;
+    }
     .input-text {
         font-size: 20px;
         border: 2px solid black;
         height: 5vh;
         width: 75vw;
-        margin-left: 5px;
+        padding-left: 5px;
     }
 
     .input-submit {
@@ -29,19 +34,21 @@
         cursor: pointer;
         outline: none;
         align-self: center;
-        width: 10vw;
+        width: 10%;
         height: 5vh;
-        margin: 0 2vw;
+        padding: 0 5%;
     }
 
     /*ResultsContainer*/
     h2 {
-        text-align: center;
+        text-align: left;
+        padding-left: 5%;
     }
 
     h3 {
         font-size: 22px;
         text-align: center;
+        opacity: 0.8;
     }
 
     .results-clear {

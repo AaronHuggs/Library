@@ -79,10 +79,15 @@
         margin-bottom: 40px;
     }
 
+    h2 {
+        text-align: left;
+        padding-left: 5%;
+    }
+
     .results-clear {
         width: 40px;
         height: 40px;
-        margin-left: 10px;
+        margin-left: 5px;
         background: none;
         border-radius: 50%;
         border: none;
@@ -186,6 +191,10 @@
 
     ul {
         padding: 0;
+    }
+
+    h3 {
+        opacity: 0.8;
     }
 
     /* Scrollbar Style */
