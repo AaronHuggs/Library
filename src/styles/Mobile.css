@@ -223,8 +223,7 @@
         margin-top: 10px;
     }
 
-    .bookshelf-item-container .item-image:hover {
-        height: 150px;   
+    .bookshelf-item-container .item-image:hover {   
         box-shadow: 4px 4px 4px black;
     }
 
