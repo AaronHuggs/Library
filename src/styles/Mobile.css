@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 :root {
   --backgroundColorMobile: #ececec;
   --headerColor: #142d4c;
@@ -11,8 +12,9 @@
     }
     /*Header*/
     h1 {
-        text-align: left;
-        padding-left: 5%;
+        text-align: center;
+        font-family: 'Parisienne',sans-serif;
+        font-size: 48px;
     }
     /*SearchContainer*/
     .form-container {
@@ -238,5 +240,21 @@
         outline: none;
         margin-left: 40px;
         margin-top: 20px;
+    }
+
+
+    .github {
+        font-size: 20px;
+        position:fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .github a {
+        cursor: pointer;
+        border: none;
+        text-decoration: none;
+        color:rgba(0, 0, 0, 0.8)
     }
 }

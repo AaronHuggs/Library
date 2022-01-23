@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/App.css';
 import './styles/Mobile.css';
+import {BsGithub} from 'react-icons/bs'
 import LibraryContainer from './components/LibraryContainer';
 //router
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
@@ -17,6 +18,15 @@ ReactDOM.render(
             </Routes>
         </BrowserRouter> 
       </div>
+      <div className='github'>
+        <a href='https://github.com/AaronHuggs' target='_blank' rel="noreferrer">
+          <BsGithub></BsGithub>
+          <span> @AaronHuggs</span>
+        </a>
+        
+        
+      </div>
+      
     </div>
   </React.StrictMode>,
   document.getElementById('root')
