@@ -8,7 +8,8 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-    <div className='outer-container'>
+    <div className='main'>
+      <div className='outer-container'></div>
       <div className='inner-container'>
         <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
